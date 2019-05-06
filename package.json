@@ -1,10 +1,12 @@
 {
   "name": "typescriptstarter",
   "version": "1.0.0",
-  "description": "TypeScript Start Package",
+  "description": "TypeScript Hello World",
   "main": "index.js",
   "scripts": {
-    "build": "tsc index.ts"
+    "build:typescript": "tsc index.ts",
+    "watch:typescript":"tsc --watch",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
