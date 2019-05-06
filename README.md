@@ -1,5 +1,5 @@
 # TypeScriptStarter
-TypeScriptStart
+TypeScriptStarter
 
 Basic Starter examples for running TypeScript code
 
