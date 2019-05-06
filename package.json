@@ -1,0 +1,26 @@
+{
+  "name": "typescriptstarter",
+  "version": "1.0.0",
+  "description": "TypeScript Start Package",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianMikinski/TypeScriptStarter.git"
+  },
+  "keywords": [
+    "typescript",
+    "node"
+  ],
+  "author": "Brian Mikinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianMikinski/TypeScriptStarter/issues"
+  },
+  "homepage": "https://github.com/BrianMikinski/TypeScriptStarter#readme",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}
