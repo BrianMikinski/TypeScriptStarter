@@ -17,6 +17,18 @@
                 "$tsc-watch"
             ],
             "isBackground": true
+        },
+        {
+            "type": "npm",
+            "script": "debug",
+            "problemMatcher": [ ],
+            "isBackground": false
+        },
+        {
+            "type": "npm",
+            "script": "run",
+            "problemMatcher": [ ],
+            "isBackground": false
         }
     ]
 }
