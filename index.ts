@@ -1,71 +1,71 @@
 
-// // standard variables
-// let variable:boolean = true;
+// standard variables
+let variable:boolean = true;
 
-// function adder(number1:number, number2:number): number{
+function adder(number1:number, number2:number): number{
 
-//     return number1 + number2 + 5;
-// }
+    return number1 + number2 + 5;
+}
 
-// // interfaces
-// interface User {
-//     firstName: string,
-//     lastName: string,
-//     isAdmin: boolean
-// }
+// interfaces
+interface User {
+    firstName: string,
+    lastName: string,
+    isAdmin: boolean
+}
 
-// var johnDoe:User = {
-//     firstName: "John",
-//     lastName: "Doe",
-//     isAdmin: false
-// };
+var johnDoe:User = {
+    firstName: "John",
+    lastName: "Doe",
+    isAdmin: false
+};
 
-// // arrow functions
-// let PrintUserName: (currentUser) => string;
+// arrow functions
+let PrintUserName: (currentUser) => string;
 
-// PrintUserName = (testUser:User) => {
+PrintUserName = (testUser:User) => {
 
-//     let fullName = testUser.firstName + " " + testUser.lastName;
+    let fullName = testUser.firstName + " " + testUser.lastName;
 
-//     console.log("Full Name: " + fullName);
+    console.log("Full Name: " + fullName);
 
-//     return fullName;
-// };
+    return fullName;
+};
 
-// // classes
-// class SecurityUser {
+// classes
+class SecurityUser {
     
-//     Permissions: string;
+    Permissions: string;
 
-//     constructor(permissions:string) {
-//         this.Permissions = permissions; 
-//     }
+    constructor(permissions:string) {
+        this.Permissions = permissions; 
+    }
 
-//     protected WritePermissions() {
-//         console.log("Permissions: " + this.Permissions);
-//     }
-// }
+    protected WritePermissions() {
+        console.log("Permissions: " + this.Permissions);
+    }
+}
 
-// // inheritances
-// class ApplicationUser extends SecurityUser implements User {
+// inheritances
+class ApplicationUser extends SecurityUser implements User {
     
-//     firstName: string;
-//     lastName: string;
-//     isAdmin: boolean;
+    firstName: string;
+    lastName: string;
+    isAdmin: boolean;
 
-//     constructor() {
-//         super("I'm an Admin!");
-//     }
+    constructor() {
+        super("I'm an Admin!");
+    }
 
-//     TestPermissions(){
-//         this.WritePermissions();
-//     }
-// }
+    TestPermissions(){
+        this.WritePermissions();
+    }
+}
 
-// let testApplicationuser = new ApplicationUser();
+let testApplicationuser = new ApplicationUser();
 
-// testApplicationuser.TestPermissions();
+testApplicationuser.TestPermissions();
 
-// // console log
-// console.log("Test");
-// console.log("Adder: " + adder(5, 4));
+// console log
+console.log("Test");
+console.log("Adder: " + adder(5, 4));

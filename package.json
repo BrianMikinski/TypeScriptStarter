@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:typescript": "tsc index.ts",
-    "watch:typescript":"tsc --watch",
+    "watch:typescript": "tsc --watch",
     "start": "node index.js"
   },
   "repository": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/BrianMikinski/TypeScriptStarter#readme",
   "devDependencies": {
-    "typescript": "^3.4.5"
+    "typescript": "3.6.3"
   }
 }
