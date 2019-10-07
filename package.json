@@ -1,11 +1,12 @@
 {
   "name": "typescriptstarter",
   "version": "1.0.0",
-  "description": "TypeScript Hello World",
+  "description": "Node TypeScript Hello World",
   "main": "index.js",
   "scripts": {
     "build:typescript": "tsc index.ts",
     "watch:typescript": "tsc --watch",
+    "debug":"node --nolazy --inspect-brk=9229 index.js",
     "start": "node index.js"
   },
   "repository": {
